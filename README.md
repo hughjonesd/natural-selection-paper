@@ -1,13 +1,17 @@
-# negative-selection
-Work on genetic selection in UK Biobank data
+This repository contains code to reproduce Hugh-Jones and Abdellaoui (2020)
+"Natural Selection in Contemporary Humans is Linked to Income and Substitution Effects".
 
-# To download
+It doesn't contain the complete history of our original (private) repository. This
+has some copies of copyright papers. If you'd like to look at our commit
+history, contact davidhughjones@gmail.com.
 
-```
-git clone https://github.com/hughjonesd-private/negative-selection.git
-```
+The code creates a pdf from the Rmarkdown file "why-natural-selection.Rmd". 
 
 # To run
+
+Ensure you have a recent R, and install the `drake` library from CRAN.
+
+Clone the repository (or download it as a tarball).
 
 Edit directory locations in `_drake.R`.
 
@@ -15,5 +19,7 @@ Within R:
 
 ```r
 source("_drake.R")
-r_make()
+drake::r_make()
 ```
+
+You may need to install additional R libraries.
