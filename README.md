@@ -5,7 +5,8 @@ It doesn't contain the complete history of our original (private) repository. Th
 has some copies of copyright papers. If you'd like to look at our commit
 history, contact davidhughjones@gmail.com.
 
-The code creates a pdf from the Rmarkdown file "why-natural-selection.Rmd". 
+The code creates a pdf from the Rmarkdown file "why-natural-selection.Rmd".
+If you just want the pdf, it's [available from REPEC](https://ideas.repec.org/p/uea/ueaeco/2021-02.html).
 
 # To run
 
